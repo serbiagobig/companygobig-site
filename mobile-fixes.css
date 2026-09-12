@@ -1,0 +1,37 @@
+/* Mobile polish for Company GO BIG landing page */
+@media (max-width:700px){
+  .section{padding:46px 0}
+  .section-heading{margin-bottom:26px}
+  .section-heading p:not(.eyebrow){font-size:16px}
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px}
+  .product-card{grid-template-rows:126px 58px!important;border-radius:14px}
+  .product-card>img{height:126px!important;width:100%;object-fit:cover}
+  .product-card>div:first-child{height:126px!important;overflow:hidden!important;background:#f5f8fc}
+  .product-card>div:first-child img{width:100%!important;height:154px!important;object-fit:cover!important;object-position:center top!important}
+  .product-card h3{height:58px!important;padding:0 10px!important;font-size:13.5px!important;line-height:1.15!important;margin:0!important;display:flex;align-items:center}
+  .game-section{padding:48px 0}
+  .game-grid{gap:24px}
+  .game-image img{height:230px!important;border-radius:20px}
+  .game-copy p{font-size:15px}
+}
+
+@media (max-width:470px){
+  .container{width:calc(100% - 20px)}
+  h1{font-size:42px;line-height:.98}
+  h2{font-size:32px}
+  .lead{font-size:17px}
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}
+  .product-card{grid-template-rows:118px 60px!important;border-radius:13px}
+  .product-card>img{height:118px!important}
+  .product-card>div:first-child{height:118px!important}
+  .product-card>div:first-child img{height:145px!important}
+  .product-card h3{height:60px!important;padding:0 9px!important;font-size:13px!important;line-height:1.15!important}
+  .game-image img{height:210px!important}
+  .game-copy h2{font-size:31px}
+  .discount-rate{font-size:50px}
+}
+
+@media (max-width:360px){
+  .product-grid{gap:8px!important}
+  .product-card h3{font-size:12px!important;padding:0 8px!important}
+}
